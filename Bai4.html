@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bai4</title>
+</head>
+<body>
+  <h1>Market Research Survey</h1>
+  <h4>Please take a few moments to complete this satisfaction survey.</h4>
+  <hr>
+  <form action="#" method="post">
+    <label for="age">What is your age range?</label>
+    <br>
+    <select id="age" name="age" class="form-select" required>
+      <option value="18-24">18-24</option>
+      <option value="24-34">24-34</option>
+      <option value="35-50">35-50</option>
+      <option value="50+">50+</option>
+    </select>
+    <br>
+    <label for="income">What is your yearly income range?</label>
+    <br>
+    <select id="income" name="age" class="form-select" required>
+      <option value="$0 - $25000">$0 - $25,000</option>
+      <option value="$25000 - $50000">$25000 - $50,000</option>
+      <option value="$50000 - $100000">$50000 - $100,000</option>
+      <option value="10000$+">$100,000+</option>
+    </select>
+    <br>
+    <label>Gender Identity</label>
+    <br>
+    <label><input type="radio" name="gender" value="Male" class="form-radio" required> Male</label>
+    <br>
+    <label><input type="radio" name="gender" value="Female" class="form-radio"> Female</label>
+    <br>
+    <label><input type="radio" name="gender" value="Nonbinary" class="form-radio"> Nonbinary</label>
+    <br>
+    <label><input type="radio" name="gender" value="Other" class="form-radio"> Other</label>
+    <br>
+    <input type="text" name="Other">
+    <br>
+    <label>Which of the following products have your purchased in the last 2 months. Please check all that apply.</label>
+    <br>
+    <label><input type="checkbox" name="gender" value="Product 1" class="form-radio" required> Product 1</label>
+    <br>
+    <label><input type="checkbox" name="gender" value="Product 2" class="form-radio"> Product 2</label>
+    <br>
+    <label><input type="checkbox" name="gender" value="Product 3" class="form-radio"> Product 3</label>
+    <br>
+    <label>How often would you use our new product?</label>
+    <br>
+    <label><input type="radio" name="gender" value="Daily" class="form-radio" required> Daily</label>
+    <br>
+    <label><input type="radio" name="gender" value="Weekly" class="form-radio"> Weekly</label>
+    <br>
+    <label><input type="radio" name="gender" value="Monthly" class="form-radio"> Monthly</label>
+    <br>
+    What would you pay for the new product?
+    <br>
+    $<input type="number" name="price" min="0" required>.<input type="number" name="price" min="0" required>
+    <br>
+    What the features would you like to see in the new product.
+    <br>
+    <input type = "text" name = "feature">
+    <br>
+    Please rate your level of agreement with the following statement.
+    <table>
+      <tr>
+        <th></th>
+        <th>Strongly Disagree</th>
+        <th>Disagree</th>
+        <th>Agree</th>
+        <th>Strongly Agree</th>
+      </tr>
+      <tr>
+        <td>Our products are priced fairly.</td>
+        <td><input type="radio" name="pricing" value="1" required></td>
+        <td><input type="radio" name="pricing" value="2"></td>
+        <td><input type="radio" name="pricing" value="3"></td>
+        <td><input type="radio" name="pricing" value="4"></td>
+      </tr>
+      <tr>
+        <td>Our products are high quality.</td>
+        <td><input type="radio" name="quality" value="1" required></td>
+        <td><input type="radio" name="quality" value="2"></td>
+        <td><input type="radio" name="quality" value="3"></td>
+        <td><input type="radio" name="quality" value="4"></td>
+      </tr>
+      <tr>
+        <td>You would recommend our product to a friend or coworker.</td>
+        <td><input type="radio" name="recommend" value="1" required></td>
+        <td><input type="radio" name="recommend" value="2"></td>
+        <td><input type="radio" name="recommend" value="3"></td>
+        <td><input type="radio" name="recommend" value="4"></td>
+      </tr>
+    </table>
+    <button type="submit" class="submit-button">Submit</button>
+
+</body>
+</html>

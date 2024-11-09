@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bai2</title>
+</head>
+<body>
+<caption> ĐĂNG KÝ HỌC VIÊN</caption>
+<form action="#" method="post">
+  <label for="yourname">Họ và tên</label>
+  <input type="text" id="yourname" name="yourname" class="form-input" required>
+  <br>
+  <label for="birthdate">Ngày sinh</label>
+  <input type="date" id="birthdate" name="birthdate" class="form-input" required>
+
+  <label>Giới tính</label>
+  <div>
+    <label><input type="radio" name="gender" value="Nam" class="form-radio" required> Nam</label>
+    <label><input type="radio" name="gender" value="Nữ" class="form-radio"> Nữ</label>
+  </div>
+
+  <label for="address">Địa chỉ</label>
+  <textarea id="address" name="address" class="form-textarea" required></textarea>
+  <br>
+  <label for="class">Lớp</label>
+  <select id="class" name="class" class="form-select" required>
+    <option value="">-- Chọn lớp --</option>
+    <option value="Front End">Front End</option>
+    <option value="Back End">Back End</option>
+  </select>
+  <br>
+  <label for="email">Email</label>
+  <input type="email" id="email" name="email" class="form-input" required>
+  <br>
+  <label for="phone">Điện thoại</label>
+  <input type="tel" id="phone" name="phone" class="form-input" required>
+
+  <div class="button-group">
+    <button type="submit" class="form-button">Đăng ký</button>
+    <button type="reset" class="form-button">Nhập lại</button>
+  </div>
+</form>
+</body>
+</html>
